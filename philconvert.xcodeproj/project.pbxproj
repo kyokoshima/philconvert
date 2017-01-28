@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9627D80C1E20DF8100F50515 /* OtherCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9627D80B1E20DF8100F50515 /* OtherCountryView.xib */; };
 		964761601DA0FEDE00DC03EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647615F1DA0FEDE00DC03EE /* AppDelegate.swift */; };
 		964761621DA0FEDE00DC03EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964761611DA0FEDE00DC03EE /* ViewController.swift */; };
 		964761651DA0FEDE00DC03EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964761631DA0FEDE00DC03EE /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		9647616D1DA0FEDE00DC03EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9647616B1DA0FEDE00DC03EE /* LaunchScreen.storyboard */; };
 		964761781DA0FEDF00DC03EE /* philconvertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964761771DA0FEDF00DC03EE /* philconvertTests.swift */; };
 		964761831DA0FEDF00DC03EE /* philconvertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964761821DA0FEDF00DC03EE /* philconvertUITests.swift */; };
+		96D771BD1DA720F0001481E6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D771BB1DA720F0001481E6 /* Alamofire.framework */; };
+		96D771BE1DA720F0001481E6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D771BC1DA720F0001481E6 /* SwiftyJSON.framework */; };
+		96E32F511E371149002EE880 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E32F4F1E371149002EE880 /* CollectionViewCell.swift */; };
+		96E32F521E371149002EE880 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E32F501E371149002EE880 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9627D80B1E20DF8100F50515 /* OtherCountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherCountryView.xib; sourceTree = "<group>"; };
 		9647615C1DA0FEDE00DC03EE /* philconvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = philconvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9647615F1DA0FEDE00DC03EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		964761611DA0FEDE00DC03EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		9647617E1DA0FEDF00DC03EE /* philconvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = philconvertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964761821DA0FEDF00DC03EE /* philconvertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = philconvertUITests.swift; sourceTree = "<group>"; };
 		964761841DA0FEDF00DC03EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D771BB1DA720F0001481E6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		96D771BC1DA720F0001481E6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		96E32F4F1E371149002EE880 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = philconvert/CollectionViewCell.swift; sourceTree = "<group>"; };
+		96E32F501E371149002EE880 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = philconvert/CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D771BD1DA720F0001481E6 /* Alamofire.framework in Frameworks */,
+				96D771BE1DA720F0001481E6 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +91,13 @@
 		964761531DA0FEDE00DC03EE = {
 			isa = PBXGroup;
 			children = (
+				96E32F4F1E371149002EE880 /* CollectionViewCell.swift */,
+				96E32F501E371149002EE880 /* CollectionViewCell.xib */,
 				9647615E1DA0FEDE00DC03EE /* philconvert */,
 				964761761DA0FEDF00DC03EE /* philconvertTests */,
 				964761811DA0FEDF00DC03EE /* philconvertUITests */,
 				9647615D1DA0FEDE00DC03EE /* Products */,
+				96D771BA1DA720EF001481E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +121,7 @@
 				9647616B1DA0FEDE00DC03EE /* LaunchScreen.storyboard */,
 				9647616E1DA0FEDE00DC03EE /* Info.plist */,
 				964761661DA0FEDE00DC03EE /* philconvert.xcdatamodeld */,
+				9627D80B1E20DF8100F50515 /* OtherCountryView.xib */,
 			);
 			path = philconvert;
 			sourceTree = "<group>";
@@ -128,6 +144,15 @@
 			path = philconvertUITests;
 			sourceTree = "<group>";
 		};
+		96D771BA1DA720EF001481E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96D771BB1DA720F0001481E6 /* Alamofire.framework */,
+				96D771BC1DA720F0001481E6 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +163,7 @@
 				964761581DA0FEDE00DC03EE /* Sources */,
 				964761591DA0FEDE00DC03EE /* Frameworks */,
 				9647615A1DA0FEDE00DC03EE /* Resources */,
+				96D771BF1DA72100001481E6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -191,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = info.tmpla;
 				TargetAttributes = {
 					9647615B1DA0FEDE00DC03EE = {
@@ -211,7 +237,7 @@
 				};
 			};
 			buildConfigurationList = 964761571DA0FEDE00DC03EE /* Build configuration list for PBXProject "philconvert" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -237,7 +263,9 @@
 			files = (
 				9647616D1DA0FEDE00DC03EE /* LaunchScreen.storyboard in Resources */,
 				9647616A1DA0FEDE00DC03EE /* Assets.xcassets in Resources */,
+				9627D80C1E20DF8100F50515 /* OtherCountryView.xib in Resources */,
 				964761651DA0FEDE00DC03EE /* Main.storyboard in Resources */,
+				96E32F521E371149002EE880 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +285,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96D771BF1DA72100001481E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		964761581DA0FEDE00DC03EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +310,7 @@
 			files = (
 				964761621DA0FEDE00DC03EE /* ViewController.swift in Sources */,
 				964761601DA0FEDE00DC03EE /* AppDelegate.swift in Sources */,
+				96E32F511E371149002EE880 /* CollectionViewCell.swift in Sources */,
 				964761681DA0FEDE00DC03EE /* philconvert.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +384,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -359,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +434,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -414,6 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DNGT8A5Y29;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = philconvert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.tmpla.philconvert;
@@ -426,6 +481,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DNGT8A5Y29;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = philconvert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.tmpla.philconvert;
@@ -507,6 +568,7 @@
 				964761891DA0FEDF00DC03EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9647618A1DA0FEDF00DC03EE /* Build configuration list for PBXNativeTarget "philconvertTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +577,7 @@
 				9647618C1DA0FEDF00DC03EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9647618D1DA0FEDF00DC03EE /* Build configuration list for PBXNativeTarget "philconvertUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +586,7 @@
 				9647618F1DA0FEDF00DC03EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
